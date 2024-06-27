@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "dash-ecommerce"
+version = "0.1.0"
+description = ""
+authors = ["gabrielpastega <gabrielpbreis@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "3.12.2"
+pandas = "^2.2.2"
+streamlit = "^1.36.0"
+plotly = "^5.22.0"
+plotly-express = "^0.4.1"
+ipykernel = "^6.29.4"
+chardet = "^5.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
